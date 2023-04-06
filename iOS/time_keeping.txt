@@ -1,0 +1,5 @@
+1.5 hours from start to 'finish'
+includes the following:
+ - all prompting copy/pasting
+ - all building, testing, debugging (only viewing and asking gpt to solve)
+ - all screengrabbing and labeling/organizing
