@@ -1,5 +1,4 @@
 import SwiftUI
-import CoreMotion
 
 struct AccelerometerView: View {
     // create an instance of the model class
@@ -21,8 +20,14 @@ struct AccelerometerView: View {
             Text("Min Z: \(data.minZ)")
             
             // display line chart with stored data
-            LineChart(data: [data.xValues, data.yValues, data.zValues], colors: [.red, .green, .blue])
+            LineChart(dataSets: [
+                (values: data.xValues.map { $0 }, color: .red), // use Double as y value and red as color
+                (values: data.yValues.map { $0 }, color: .green), // use Double as y value and green as color
+                (values: data.zValues.map { $0 }, color: .blue) // use Double as y value and blue as color
+            ])
+            .frame(height: 300) // set a fixed height for the chart
         }
+        .padding() // add some padding around the view
         .onAppear {
             // start reading accelerometer data when the view appears
             data.startUpdates()

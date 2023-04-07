@@ -12,6 +12,7 @@
 		E045EAD029DFD4830096C46F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E045EACF29DFD4830096C46F /* Assets.xcassets */; };
 		E045EAD329DFD4830096C46F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E045EAD229DFD4830096C46F /* Preview Assets.xcassets */; };
 		E045EADA29DFD4D20096C46F /* AccelerometerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E045EAD929DFD4D20096C46F /* AccelerometerView.swift */; };
+		E045EADC29DFDB5E0096C46F /* LineChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = E045EADB29DFDB5E0096C46F /* LineChart.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		E045EACF29DFD4830096C46F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E045EAD229DFD4830096C46F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		E045EAD929DFD4D20096C46F /* AccelerometerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccelerometerView.swift; sourceTree = "<group>"; };
+		E045EADB29DFDB5E0096C46F /* LineChart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineChart.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 				E045EACB29DFD4820096C46F /* AccelerometerApp.swift */,
 				E045EACD29DFD4820096C46F /* AccelerometerData.swift */,
 				E045EAD929DFD4D20096C46F /* AccelerometerView.swift */,
+				E045EADB29DFDB5E0096C46F /* LineChart.swift */,
 				E045EACF29DFD4830096C46F /* Assets.xcassets */,
 				E045EAD129DFD4830096C46F /* Preview Content */,
 			);
@@ -140,6 +143,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E045EADC29DFDB5E0096C46F /* LineChart.swift in Sources */,
 				E045EADA29DFD4D20096C46F /* AccelerometerView.swift in Sources */,
 				E045EACE29DFD4820096C46F /* AccelerometerData.swift in Sources */,
 				E045EACC29DFD4820096C46F /* AccelerometerApp.swift in Sources */,
@@ -279,6 +283,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -308,6 +313,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

@@ -18,7 +18,16 @@ Lessons Learned:
 <img src="./iOS/001/ios_001.PNG" width="25%" height="25%" />
 
 # 002 - Bing GPT-4 Line Graphs
-TBD
+This attempt was using Bing GPT-4 in Creative mode. The bar graph feature request was removed in an attempt to get to a complete solution within the 20 prompt limit.
+
+Different behavior was observed from Bing GPT-4 for this run. For the initial file structure, it did a web search rather than immediately generate and put it in a code block.
+
+Additionally, it seemed to be more 'tempermental' than previous interactions. It pulled in weather variable names and didn't seem to follow that the user was using their files from time to time.
+
+Lessons Learned:
+    - Bing GPT-4 can get stuck in a loop where it suggests the same fixes. One way to get out of this is to ask it to regenerate a new version of the file.
+
+<img src="./iOS/002/ios_002.gif" width="25%" height="25%" />
 
 # Android
 TBD
