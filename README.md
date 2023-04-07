@@ -10,14 +10,14 @@ Multiple attempts have been made to try and get to a fully functional app that m
 This attempt was using Bing GPT-4 in Creative mode. The result is incomplete as I was trying to see what could be achieved within the 20 prompt limit for Bing GPT-4.
 
 Lessons Learned:
-    - when using Bing GPT, it's best to keep the number of features limited. If I didn't include the bar graphs, I think I would have had enough prompts to get it working fully.
-    - only ask it to fix a single bug at a time. The first mention of no visible line or bar graphs was ignored and it zeroed in on the last bug mentioned in the prompt.
-    - asking it to list the file structure was very useful
-    - high specificity in the reported errors yielded good results in the generated fixes
+- when using Bing GPT, it's best to keep the number of features limited. If I didn't include the bar graphs, I think I would have had enough prompts to get it working fully.
+- only ask it to fix a single bug at a time. The first mention of no visible line or bar graphs was ignored and it zeroed in on the last bug mentioned in the prompt.
+- asking it to list the file structure was very useful
+- high specificity in the reported errors yielded good results in the generated fixes
 
 <img src="./iOS/001/ios_001.PNG" width="25%" height="25%" />
 
-# 002 - Bing GPT-4 Line Graphs
+## 002 - Bing GPT-4 Line Graphs
 This attempt was using Bing GPT-4 in Creative mode. The bar graph feature request was removed in an attempt to get to a complete solution within the 20 prompt limit.
 
 Different behavior was observed from Bing GPT-4 for this run. For the initial file structure, it did a web search rather than immediately generate and put it in a code block.
@@ -25,9 +25,12 @@ Different behavior was observed from Bing GPT-4 for this run. For the initial fi
 Additionally, it seemed to be more 'tempermental' than previous interactions. It pulled in weather variable names and didn't seem to follow that the user was using their files from time to time.
 
 Lessons Learned:
-    - Bing GPT-4 can get stuck in a loop where it suggests the same fixes. One way to get out of this is to ask it to regenerate a new version of the file.
+- Bing GPT-4 can get stuck in a loop where it suggests the same fixes. One way to get out of this is to ask it to regenerate a new version of the file.
 
 <img src="./iOS/002/ios_002.gif" width="25%" height="25%" />
+
+## 003 - ChatGPT-4 Line Graphs
+TBD
 
 # Android
 TBD
