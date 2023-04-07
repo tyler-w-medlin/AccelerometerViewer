@@ -1,0 +1,370 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E05B310E29DFE98000DB4A8A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E05B310D29DFE98000DB4A8A /* ContentView.swift */; };
+		E05B311029DFE98100DB4A8A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E05B310F29DFE98100DB4A8A /* Assets.xcassets */; };
+		E05B311329DFE98100DB4A8A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E05B311229DFE98100DB4A8A /* Preview Assets.xcassets */; };
+		E05B311C29DFE9A300DB4A8A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E05B311B29DFE9A300DB4A8A /* SceneDelegate.swift */; };
+		E05B311E29DFEA1200DB4A8A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E05B311D29DFEA1200DB4A8A /* AppDelegate.swift */; };
+		E05B312029DFEA2E00DB4A8A /* AccelerometerData.swift in Sources */ = {isa = PBXBuildFile; fileRef = E05B311F29DFEA2E00DB4A8A /* AccelerometerData.swift */; };
+		E05B312229DFEA3A00DB4A8A /* AccelerometerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E05B312129DFEA3A00DB4A8A /* AccelerometerManager.swift */; };
+		E05B312429DFEA4800DB4A8A /* LineGraph.swift in Sources */ = {isa = PBXBuildFile; fileRef = E05B312329DFEA4800DB4A8A /* LineGraph.swift */; };
+		E05B312629DFEA5300DB4A8A /* GraphDataPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = E05B312529DFEA5300DB4A8A /* GraphDataPoint.swift */; };
+		E05B312829DFEA5E00DB4A8A /* GraphStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = E05B312729DFEA5E00DB4A8A /* GraphStyle.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E05B310829DFE98000DB4A8A /* AccelerometerViewer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AccelerometerViewer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E05B310D29DFE98000DB4A8A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		E05B310F29DFE98100DB4A8A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E05B311229DFE98100DB4A8A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E05B311B29DFE9A300DB4A8A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		E05B311D29DFEA1200DB4A8A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E05B311F29DFEA2E00DB4A8A /* AccelerometerData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccelerometerData.swift; sourceTree = "<group>"; };
+		E05B312129DFEA3A00DB4A8A /* AccelerometerManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccelerometerManager.swift; sourceTree = "<group>"; };
+		E05B312329DFEA4800DB4A8A /* LineGraph.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineGraph.swift; sourceTree = "<group>"; };
+		E05B312529DFEA5300DB4A8A /* GraphDataPoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphDataPoint.swift; sourceTree = "<group>"; };
+		E05B312729DFEA5E00DB4A8A /* GraphStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphStyle.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E05B310529DFE98000DB4A8A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E05B30FF29DFE98000DB4A8A = {
+			isa = PBXGroup;
+			children = (
+				E05B310A29DFE98000DB4A8A /* AccelerometerViewer */,
+				E05B310929DFE98000DB4A8A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E05B310929DFE98000DB4A8A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E05B310829DFE98000DB4A8A /* AccelerometerViewer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E05B310A29DFE98000DB4A8A /* AccelerometerViewer */ = {
+			isa = PBXGroup;
+			children = (
+				E05B311D29DFEA1200DB4A8A /* AppDelegate.swift */,
+				E05B311F29DFEA2E00DB4A8A /* AccelerometerData.swift */,
+				E05B312129DFEA3A00DB4A8A /* AccelerometerManager.swift */,
+				E05B310D29DFE98000DB4A8A /* ContentView.swift */,
+				E05B312529DFEA5300DB4A8A /* GraphDataPoint.swift */,
+				E05B312729DFEA5E00DB4A8A /* GraphStyle.swift */,
+				E05B312329DFEA4800DB4A8A /* LineGraph.swift */,
+				E05B311B29DFE9A300DB4A8A /* SceneDelegate.swift */,
+				E05B310F29DFE98100DB4A8A /* Assets.xcassets */,
+				E05B311129DFE98100DB4A8A /* Preview Content */,
+			);
+			path = AccelerometerViewer;
+			sourceTree = "<group>";
+		};
+		E05B311129DFE98100DB4A8A /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				E05B311229DFE98100DB4A8A /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E05B310729DFE98000DB4A8A /* AccelerometerViewer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E05B311629DFE98100DB4A8A /* Build configuration list for PBXNativeTarget "AccelerometerViewer" */;
+			buildPhases = (
+				E05B310429DFE98000DB4A8A /* Sources */,
+				E05B310529DFE98000DB4A8A /* Frameworks */,
+				E05B310629DFE98000DB4A8A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AccelerometerViewer;
+			productName = AccelerometerViewer;
+			productReference = E05B310829DFE98000DB4A8A /* AccelerometerViewer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E05B310029DFE98000DB4A8A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					E05B310729DFE98000DB4A8A = {
+						CreatedOnToolsVersion = 14.3;
+					};
+				};
+			};
+			buildConfigurationList = E05B310329DFE98000DB4A8A /* Build configuration list for PBXProject "AccelerometerViewer" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E05B30FF29DFE98000DB4A8A;
+			productRefGroup = E05B310929DFE98000DB4A8A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E05B310729DFE98000DB4A8A /* AccelerometerViewer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E05B310629DFE98000DB4A8A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E05B311329DFE98100DB4A8A /* Preview Assets.xcassets in Resources */,
+				E05B311029DFE98100DB4A8A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E05B310429DFE98000DB4A8A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E05B311E29DFEA1200DB4A8A /* AppDelegate.swift in Sources */,
+				E05B310E29DFE98000DB4A8A /* ContentView.swift in Sources */,
+				E05B311C29DFE9A300DB4A8A /* SceneDelegate.swift in Sources */,
+				E05B312629DFEA5300DB4A8A /* GraphDataPoint.swift in Sources */,
+				E05B312029DFEA2E00DB4A8A /* AccelerometerData.swift in Sources */,
+				E05B312429DFEA4800DB4A8A /* LineGraph.swift in Sources */,
+				E05B312829DFEA5E00DB4A8A /* GraphStyle.swift in Sources */,
+				E05B312229DFEA3A00DB4A8A /* AccelerometerManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		E05B311429DFE98100DB4A8A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E05B311529DFE98100DB4A8A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E05B311729DFE98100DB4A8A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"AccelerometerViewer/Preview Content\"";
+				DEVELOPMENT_TEAM = U57Y8CJ8FD;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = tmedlin.AccelerometerViewer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E05B311829DFE98100DB4A8A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"AccelerometerViewer/Preview Content\"";
+				DEVELOPMENT_TEAM = U57Y8CJ8FD;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = tmedlin.AccelerometerViewer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E05B310329DFE98000DB4A8A /* Build configuration list for PBXProject "AccelerometerViewer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E05B311429DFE98100DB4A8A /* Debug */,
+				E05B311529DFE98100DB4A8A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E05B311629DFE98100DB4A8A /* Build configuration list for PBXNativeTarget "AccelerometerViewer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E05B311729DFE98100DB4A8A /* Debug */,
+				E05B311829DFE98100DB4A8A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E05B310029DFE98000DB4A8A /* Project object */;
+}

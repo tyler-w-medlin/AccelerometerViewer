@@ -6,7 +6,9 @@ This repo is intended to demonstrate some of GPT-4's capabilities as well as ser
 # iOS
 Multiple attempts have been made to try and get to a fully functional app that meets the initial features prompted.
 
-## 001 - Bing GPT-4 Line Graphs & Bar Chart
+## 001 - Bing GPT-4 Line Graphs & Bar Chart (FAIL)
+Failed because not all data was visible on screen.
+
 This attempt was using Bing GPT-4 in Creative mode. The result is incomplete as I was trying to see what could be achieved within the 20 prompt limit for Bing GPT-4.
 
 Lessons Learned:
@@ -17,7 +19,9 @@ Lessons Learned:
 
 <img src="./iOS/001/ios_001.PNG" width="25%" height="25%" />
 
-## 002 - Bing GPT-4 Line Graphs
+## 002 - Bing GPT-4 Line Graphs (FAIL)
+Failed because not all data was visible on screen.
+
 This attempt was using Bing GPT-4 in Creative mode. The bar graph feature request was removed in an attempt to get to a complete solution within the 20 prompt limit.
 
 Different behavior was observed from Bing GPT-4 for this run. For the initial file structure, it did a web search rather than immediately generate and put it in a code block.
@@ -29,8 +33,19 @@ Lessons Learned:
 
 <img src="./iOS/002/ios_002.gif" width="25%" height="25%" />
 
-## 003 - ChatGPT-4 Line Graphs
-TBD
+## 003 - ChatGPT-4 Line Graphs (SUCCESS)
+Succeeded because all data was visible on screen as well as additional feature requests were achieved.
+
+This attempt was using the chatGPT-4 interface on OpenAI's site. The prompt was a slightly refined version of the 002 prompt to specify the app name, to generate a list of .swift files, and that the min/max values are only for the current displayed graph.
+
+While chatGPT-4 does not have the ability to search the web, once the initial bugs were fixed, the app was far closer to the target design from the beginning.
+
+Lessons Learned:
+- chatGPT-4 does a much better job of remembering what was generated and said
+- Using 'only respond with code' eliminated the unnecessarily verbose output when desired
+- chatGPT-4 can also make suggestions like 'replace all occurrences of x in y file' which Bing GPT-4 was not observed doing
+
+<img src="./iOS/003/ios_003.gif" width="25%" height="25%" />
 
 # Android
 TBD
