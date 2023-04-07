@@ -6,7 +6,7 @@
 *.swp
 
 # Xcode user settings
-**/xcuserdata/
+**/xcuserdata/*
 
 # Xcode 8 and earlier
 *.xcscmblueprint
