@@ -15,6 +15,8 @@ Lessons Learned:
     - asking it to list the file structure was very useful
     - high specificity in the reported errors yielded good results in the generated fixes
 
+![ios_001.PNG](./iOS/001/ios_001.PNG)
+
 # 002 - Bing GPT-4 Line Graphs
 TBD
 
