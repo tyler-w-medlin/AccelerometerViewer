@@ -15,7 +15,7 @@ Lessons Learned:
     - asking it to list the file structure was very useful
     - high specificity in the reported errors yielded good results in the generated fixes
 
-<img src="./iOS/001/ios_001.PNG" width="50%" height="50%" />
+<img src="./iOS/001/ios_001.PNG" width="25%" height="25%" />
 
 # 002 - Bing GPT-4 Line Graphs
 TBD
