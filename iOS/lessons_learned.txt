@@ -1,4 +1,0 @@
-- when using bing GPT, it's best to keep the number of features limited. If I didn't include the bar graphs, I think I would have had enough prompts to get it working fully.
-- only ask it to fix a single bug at a time. The first mention of no visible line or bar graphs was ignored and it zeroed in on the last bug mentioned in the prompt.
-- asking it to list the file structure was very useful
-- high specificity in the reported errors yielded good results in the generated fixes
